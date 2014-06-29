@@ -1,0 +1,2 @@
+defmodule ElixirKatas do
+end
