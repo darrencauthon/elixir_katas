@@ -12,4 +12,8 @@ defmodule StringCalculatorTest do
   test "2 is 2" do
     assert StringCalculator.add("2") == 2
   end
+
+  test "1,1 is 2" do
+    assert StringCalculator.add("1,1") == 2
+  end
 end
