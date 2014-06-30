@@ -8,4 +8,8 @@ defmodule StringCalculatorTest do
   test "1 is 1" do
     assert StringCalculator.add("1") == 1
   end
+
+  test "2 is 2" do
+    assert StringCalculator.add("2") == 2
+  end
 end
