@@ -9,7 +9,7 @@ defmodule StringCalculator do
   end
 
   def add(value) do
-    items = String.split(value, ",")
+    items = String.split(value, [",", "\n"])
     add items
   end
 
